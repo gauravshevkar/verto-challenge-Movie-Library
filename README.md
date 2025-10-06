@@ -29,7 +29,7 @@ To run this project locally, follow these steps:
 Open your terminal and clone the project, then navigate into the directory:
 
 Bash:- 
-  1. git clone [Your Repository URL]
+  1. git clone https://github.com/gauravshevkar/verto-challenge-Movie-Library
   2. cd movie-library
 
 ### 2. Install Dependencies
