@@ -1,0 +1,31 @@
+.card {
+  background: #1c1c1c;
+  color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card button {
+  margin-top: 10px;
+  background: #ff4d4d;
+  border: none;
+  padding: 8px 12px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.no_data{
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}

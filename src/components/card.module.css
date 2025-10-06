@@ -1,0 +1,74 @@
+/* MovieCard.module.css */
+
+/* --- Card Container Styles --- */
+.movieCard {
+  width: 230px; /* Adjust size as needed */
+  background-color: #2a2a33; /* Dark background for the card */
+  color: #fff;
+  border-radius: 10px;
+  overflow: hidden; /* Keeps content within the border-radius */
+  
+  /* Key properties for the smooth hover effect */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  cursor: pointer; /* Indicates the card is interactive */
+  padding: 2.80%;
+}
+
+/* --- Hover Effect --- */
+.movieCard:hover {
+  /* Moves the card up by 5 pixels */
+  transform: translateY(-5px); 
+  /* Adds a subtle shadow for a "lifted" effect */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); 
+}
+
+/* --- Poster Image Styles --- */
+.posterContainer {
+  height: 190px; /* Fixed height for consistent card sizing */
+  overflow: hidden;
+}
+
+.posterImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  display: block;
+  border-radius: 10px;
+}
+
+/* --- Card Content/Text Styles --- */
+.cardContent {
+  padding: 15px;
+  text-align: left;
+}
+
+.title {
+  font-size: 1.25rem;
+  margin-bottom: 5px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.details {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-bottom: 15px;
+}
+
+/* --- Button Styles --- */
+.cardBtn {
+  width: 100%;
+  padding: 10px;
+  background-color: #e74c3c; /* A striking red color for the button */
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  /* Smooth transition for button hover effect */
+  transition: background-color 0.2s ease; 
+}
+
+.cardBtn:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}
