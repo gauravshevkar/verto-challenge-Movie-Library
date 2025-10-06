@@ -8,7 +8,6 @@ const Home = ({ searchQuery }) => {
 
   useEffect(() => {
     const fetchMovies = async () => {
-      // If user clears search, fetch default movies
       const query = searchQuery && searchQuery.trim() !== "" ? searchQuery : "Avengers";
       const data = await getMovies(query);
 
@@ -16,7 +15,7 @@ const Home = ({ searchQuery }) => {
         setMovies(
           data.Search.map((m) => ({
             ...m,
-            rating: "N/A" // default since search API doesn't give rating
+            rating: "N/A" 
           }))
         );
       } else {
