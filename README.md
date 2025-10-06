@@ -1,5 +1,5 @@
 # React + Vite
-#🎬 Movie Library
+# 🎬 Movie Library
 An interactive React web app to browse movies and manage your personal Watchlist.
 It uses the OMDb API to fetch movie data and stores your watchlist locally.
 
@@ -14,12 +14,12 @@ It uses the OMDb API to fetch movie data and stores your watchlist locally.
  8. State Management: Uses React’s state hooks for consistent UI updates.
  
 # Tech Stac
-  Frontend: React.js
-  Routing: React Router DOM
-  Styling: CSS / TailwindCSS (as per your project)
-  API: OMDb API
-  State Management: React Hooks (useState, useEffect)
-  Storage: Browser LocalStorage
+Frontend: React.js
+Routing: React Router DOM
+Styling: CSS / TailwindCSS (as per your project)
+API: OMDb API
+State Management: React Hooks (useState, useEffect)
+Storage: Browser LocalStorage
 
 # Project Structure
 movie-library/
@@ -62,6 +62,7 @@ npm install
 Create a file named .env in the project root and add your OMDb API Key. This is essential for the application to fetch movie data:
 
 VITE_OMDB_API_KEY=YOUR_OMDB_API_KEY_HERE
+
 ### 4. Run the App
 Start the local development server:
 
