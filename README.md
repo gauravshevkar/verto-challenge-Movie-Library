@@ -21,26 +21,6 @@ It uses the OMDb API to fetch movie data and stores your watchlist locally.
 5. **State Management:** React Hooks (useState, useEffect)
 6. **Storage:** Browser LocalStorage
 
-# Project Structure
-movie-library/
-. │
-. ├── src/
-. │   ├── components/
-. │   │   ├── MovieCard.jsx
-. │   │   ├── Navbar.jsx
-│   │   └── WatchlistCard.jsx
-│   │
-│   ├── pages/
-│   │   ├── Home.jsx
-│   │   └── Watchlist.jsx
-│   │
-│   ├── App.jsx
-│   ├── index.js
-│   └── App.css
-│
-├── .env
-├── package.json
-└── README.md
 
 # Setup and Local Development
 To run this project locally, follow these steps:
@@ -75,3 +55,8 @@ We strictly follow best practices for handling sensitive credentials:
 API Key Protection: The .env file is excluded from Git tracking via the .gitignore file.
 
 Deployment Security: In the deployed version (e.g., on Vercel), the API Key is securely injected using Environment Variables within the platform's settings, ensuring the key is never exposed in the public codebase.
+
+### Note
+Originally, the project was intended to use the TMDB API as per the task requirements.
+However, due to login and authentication issues on the TMDB website during development, the OMDb API was used instead.
+OMDb provides similar functionality and allowed smooth integration for fetching and displaying movie data.
