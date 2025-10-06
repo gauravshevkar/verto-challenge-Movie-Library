@@ -23,11 +23,11 @@ It uses the OMDb API to fetch movie data and stores your watchlist locally.
 
 # Project Structure
 movie-library/
-│
-├── src/
-│   ├── components/
-│   │   ├── MovieCard.jsx
-│   │   ├── Navbar.jsx
+. │
+. ├── src/
+. │   ├── components/
+. │   │   ├── MovieCard.jsx
+. │   │   ├── Navbar.jsx
 │   │   └── WatchlistCard.jsx
 │   │
 │   ├── pages/
