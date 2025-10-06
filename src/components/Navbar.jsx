@@ -15,7 +15,7 @@ const Navbar = ({ setSearchQuery }) => {
   const handleSearchChange = (e) => {
     const value = e.target.value;
     setQuery(value);
-    setSearchQuery(value); // pass query to Home
+    setSearchQuery(value); 
   };
 
   return (
