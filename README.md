@@ -1,27 +1,27 @@
 # React + Vite
-# 🎬 Movie Library
+# Movie Library
 An interactive React web app to browse movies and manage your personal Watchlist.
 It uses the OMDb API to fetch movie data and stores your watchlist locally.
 
- # Features
- 1. Popular Movies: Displays a curated list of trending movies on load.
- 2. Search by Title: Find movies easily by searching their name using OMDb API.
- 3. Persistent Watchlist: Add movies to a personal watchlist — saved in localStorage.
- 4. Reusable Components: Built with modular MovieCard and Navbar components.
- 5. Separate Watchlist Page: View all your saved movies.
- 6. Remove Movie Option: Remove a movie from your watchlist anytime.
- 7. Client-Side Routing: Smooth navigation between Home and Watchlist.
- 8. State Management: Uses React’s state hooks for consistent UI updates.
- 
-# Tech Stac
-Frontend: React.js
-Routing: React Router DOM
-Styling: CSS / TailwindCSS (as per your project)
-API: OMDb API
-State Management: React Hooks (useState, useEffect)
-Storage: Browser LocalStorage
+# Features
+1. Popular Movies: Displays a curated list of trending movies on load.
+2. Search by Title: Find movies easily by searching their name using OMDb API.
+3. Persistent Watchlist: Add movies to a personal watchlist — saved in localStorage.
+4. Reusable Components: Built with modular MovieCard and Navbar components.
+5. Separate Watchlist Page: View all your saved movies.
+6. Remove Movie Option: Remove a movie from your watchlist anytime.
+7. Client-Side Routing: Smooth navigation between Home and Watchlist.
+8. State Management: Uses React’s state hooks for consistent UI updates.
 
-# Project Structure
+# Tech Stack
+1. Frontend: React.js
+2. Routing: React Router DOM
+3. Styling: CSS / TailwindCSS (as per your project)
+4. API: OMDb API
+5. State Management: React Hooks (useState, useEffect)
+6. Storage: Browser LocalStorage
+
+Project Structure
 movie-library/
 │
 ├── src/
