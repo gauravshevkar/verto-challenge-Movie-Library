@@ -28,25 +28,25 @@ To run this project locally, follow these steps:
 ### 1. Clone the Repository
 Open your terminal and clone the project, then navigate into the directory:
 
-Bash
-git clone [Your Repository URL]
-cd movie-library
+Bash:- 
+  1. git clone [Your Repository URL]
+  2. cd movie-library
 
 ### 2. Install Dependencies
 Install all required packages:
 
-Bash
+Bash :-  
 npm install
 
 ### 3. Setup Environment Variables
 Create a file named .env in the project root and add your OMDb API Key. This is essential for the application to fetch movie data:
 
-VITE_OMDB_API_KEY=YOUR_OMDB_API_KEY_HERE
+ VITE_OMDB_API_KEY=YOUR_OMDB_API_KEY_HERE
 
 ### 4. Run the App
 Start the local development server:
 
-Bash
+Bash:-  
 npm run dev
 
 ## 🛡️ Security Note for Evaluators
