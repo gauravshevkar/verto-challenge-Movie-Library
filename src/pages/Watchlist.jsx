@@ -1,4 +1,3 @@
-// src/pages/Watchlist.jsx
 import React, { useEffect, useState } from "react";
 import Card from "../components/Card";
 import './watchlist.css'
